@@ -4,11 +4,11 @@
         "url": "https://github.com/salemove/node-config_loader/issues"
     },
     "dependencies": {
-        "coffee-script": "~> 1.7.1",
         "yamljs": "~> 0.2.0"
     },
     "description": "Helps to load environment configurations from yaml files",
     "devDependencies": {
+        "coffee-script": "~> 1.7.1",
         "mocha": ">=1.17",
         "should": "~> 3.1.2",
         "sinon": "~> 1.7.3"
@@ -17,12 +17,11 @@
     "keywords": [
         "salemove",
         "config",
-        "loader",
-        "coffee"
+        "loader"
     ],
     "license": "Apache 2.0",
     "main": "lib/config_loader",
-    "name": "node-config_loader",
+    "name": "config_loader",
     "repository": {
         "type": "git",
         "url": "git@github.com:salemove/node-config_loader.git"
@@ -30,5 +29,5 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.0.3"
+    "version": "0.1.0"
 }

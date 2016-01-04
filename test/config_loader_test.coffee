@@ -8,6 +8,10 @@ describe 'ConfigLoader', ->
     configuration = ConfigLoader.loadFor 'production', configFilePath
     configuration.should.containEql({redis: { host: 'yawsah' }})
 
+  it 'loads multiline strings', ->
+    configuration = ConfigLoader.loadFor 'production', configFilePath
+    configuration.should.containEql(multiline: "one:two")
+
   context 'with environment variables declared', ->
     before ->
       process.env.foo = 'foo-val'

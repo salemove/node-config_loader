@@ -5,6 +5,8 @@ development:
 production:
   redis:
     host: yawsah
+  multiline: "one:\
+              two"
 
 flexible:
   foo: <%= process.env['foo'] %>

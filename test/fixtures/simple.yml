@@ -5,3 +5,7 @@ development:
 production:
   redis:
     host: yawsah
+
+flexible:
+  foo: <%= process.env['foo'] %>
+  undefined_val: <%= process.env['undefined_val'] %>

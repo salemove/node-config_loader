@@ -4,7 +4,8 @@
         "url": "https://github.com/salemove/node-config_loader/issues"
     },
     "dependencies": {
-        "yamljs": "~> 0.2.0"
+        "yamljs": "~> 0.2.0",
+        "ejs": "~> 2.3.4"
     },
     "description": "Helps to load environment configurations from yaml files",
     "devDependencies": {
@@ -29,5 +30,5 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.1.0"
+    "version": "0.1.1"
 }

@@ -5,7 +5,7 @@
     },
     "dependencies": {
         "js-yaml": "~> 3.4.6",
-        "ejs": "~> 2.3.4"
+        "ejs": "~> 2.5.7"
     },
     "description": "Helps to load environment configurations from yaml files",
     "devDependencies": {
@@ -30,5 +30,5 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.1.2"
+    "version": "0.1.3"
 }
